@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+}
+table{
+    width: 800px;
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 50px;
+    font-family: arial;
+    color: #fff;
+}
+table,th,td{
+    border: 1px dotted white;
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: 20px;
+}
+th{
+    background: purple;
+    padding: 30px;
+    text-transform: uppercase;
+}
+td:nth-child(5n+1){
+    background: red;
+}
+td:nth-child(5n+2){
+    background: blue;
+}
+td:nth-child(5n+3){
+    background: olivedrab;
+}
+td:nth-child(5n+4){
+    background: palevioletred;
+}
+td:nth-child(5n+5){
+    background: gold;
+}
